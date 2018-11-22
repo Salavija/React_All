@@ -1,0 +1,11 @@
+ESLint extension install to Visual Code
+ctrl+shift+x
+
+NPM - Node package manager
+It downloads all needed packages(react, reactDOM, bootstrap etc)
+Project - package.json (important: name, dependencies
+devDependencies - nepakuojama(everything(exp tests) that we use, but client doesnt need)
+
+Commands:
+npm install - instaliuojasi pakete
+npm install -g - instaliuojasi globaliai(galima pasiekti per bash'a)

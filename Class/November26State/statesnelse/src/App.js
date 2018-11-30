@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import EpicMenu from './Navigation/EpicMenu';
 import Fruits from './Fruits/Fruits';
 import apple from './Fruits/apples.jpg';
 import banana from './Fruits/banana.jpg';
 import orange from './Fruits/orange.jpg';
-import Example from './Navigation/Navbar'
+
+
+import logo from './logo.png';
 
 const allFruits = [
   {
@@ -29,13 +32,25 @@ const allFruits = [
 
 class App extends Component {
   render() {
+    let links = [
+      { label: 'Home', link: '#home', active: true },
+      { label: 'About', link: '#about' },
+      { label: 'Portfolio', link: '#portfolio' },
+      { label: 'Contact Us', link: '#contact-us' },
+    ];
+
+
     return (
-      <div className="container-fluid">
       <div>
-        <Example navbar />
-      <Fruits fruits = {allFruits}/>
+      <div className="container center">
+        <EpicMenu links={links} logo={logo} />
       </div>
 
+      <div className="container-fluid">
+      <div>
+      <Fruits fruits = {allFruits}/>
+      </div>
+      </div>
       </div>
     );
   }

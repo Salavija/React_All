@@ -2,7 +2,7 @@
     background-color: white;
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
-    width: 752px;
+    width: auto;
     height: 80px;
     display: flex;
     justify-content: space-between;

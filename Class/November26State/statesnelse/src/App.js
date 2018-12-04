@@ -6,7 +6,6 @@ import apple from './Fruits/apples.jpg';
 import banana from './Fruits/banana.jpg';
 import orange from './Fruits/orange.jpg';
 
-
 import logo from './logo.png';
 
 const allFruits = [

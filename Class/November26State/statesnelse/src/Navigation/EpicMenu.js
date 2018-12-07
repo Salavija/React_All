@@ -26,9 +26,9 @@ class EpicMenu extends Component {
 
         let linksMarkup = this.props.links.map((link, index) => {
             let linkMarkup = link.active ? (
-                <a className="menu__link menu__link--active" href={link.link}>{link.label}</a>
+                <Link className="menu__link menu__link--active" href={link.link}>{link.label}</Link>
             ) : (
-                <a className="menu__link" href={link.link}>{link.label}</a>
+                <Link className="menu__link" href={link.link}>{link.label}</Link>
             );
 
             return (

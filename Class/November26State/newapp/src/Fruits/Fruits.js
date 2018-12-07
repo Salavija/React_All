@@ -4,7 +4,7 @@ import Fruit from './Fruit';
 
 
 const fruits = (props) => {
-    let fruits=props.fruits.map(fruit => {
+    const fruits=props.fruits.map(fruit => {
     return (<div className="col-sm-4" key={fruit.title}>
     <Fruit image = {fruit.image}
             title = {fruit.title}

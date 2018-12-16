@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-.classpath
-.settings
-.project
-node_modules
-target
-*.iml
-.idea
-.eclipse
-/bin/
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -32,4 +21,3 @@ target
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
->>>>>>> Class

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Fruits from './Fruits/Fruits';
-import apple from './Fruits/apples.jpg';
-import banana from './Fruits/banana.jpg';
-import orange from './Fruits/orange.jpg';
+import apple from './Fruits/images/apples.jpg';
+import banana from './Fruits/images/banana.jpg';
+import orange from './Fruits/images/orange.jpg';
 import Example from './Navigation/Navbar'
 
 const allFruits = [

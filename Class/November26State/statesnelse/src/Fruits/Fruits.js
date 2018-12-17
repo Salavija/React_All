@@ -6,6 +6,7 @@ import apple from './Fruits/images/apples.jpg';
 import banana from './Fruits/images/banana.jpg';
 import orange from './Fruits/images/orange.jpg';
 
+<<<<<<< HEAD
 // import PropTypes from 'prop-types';
 // const allFruits = [
 //     {
@@ -48,6 +49,10 @@ class Fruits extends Component{
         if (fruit.imageId === "banana") {
             imageObject = banana;
         }
+=======
+const fruits = (props) => {
+    const fruits=props.fruits.map(fruit => {
+>>>>>>> 0178811467d55826494b7cc4480eace5260d69f1
     return (<div className="col-sm-4" key={fruit.title}>
     <Fruit image = {imageObject}
             title = {fruit.title}

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const styles = {
   card: {
     maxWidth: 345,
-    boxshadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
   },
   media: {
   },
@@ -20,6 +19,8 @@ const fruit = (props) => {
             <h5 className="card-title">{props.title}</h5>
             <p className="card-text">{props.info}</p>
             <a href={props.reference} className="btn btn-primary">Informacija</a>
+            &nbsp; &nbsp; &nbsp;
+            <a href={props.reference} className="btn btn-success">Pirkti</a>
         </div>
     </div>
         );
